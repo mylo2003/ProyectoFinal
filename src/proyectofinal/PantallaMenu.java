@@ -22,20 +22,20 @@ public class PantallaMenu extends javax.swing.JFrame {
         content4 = new javax.swing.JLabel();
         content5 = new javax.swing.JLabel();
         content6 = new javax.swing.JLabel();
-        content7 = new javax.swing.JLabel();
         siguiente = new javax.swing.JLabel();
         anterior = new javax.swing.JLabel();
         menuLateral = new javax.swing.JPanel();
         menu = new javax.swing.JLabel();
         btnHome = new javax.swing.JLabel();
         btnContenido = new javax.swing.JLabel();
+        btnContexto = new javax.swing.JLabel();
+        btnTema2 = new javax.swing.JLabel();
         btnTema1 = new javax.swing.JLabel();
         btnTema3 = new javax.swing.JLabel();
-        btnTema2 = new javax.swing.JLabel();
         btnTema4 = new javax.swing.JLabel();
         btnTema5 = new javax.swing.JLabel();
-        btnTema6 = new javax.swing.JLabel();
-        btnTema7 = new javax.swing.JLabel();
+        btnEvaluacion = new javax.swing.JLabel();
+        btnSalida = new javax.swing.JLabel();
         titulo_menu = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -93,7 +93,7 @@ public class PantallaMenu extends javax.swing.JFrame {
 
         content1.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         content1.setForeground(new java.awt.Color(227, 218, 201));
-        content1.setText("Overview");
+        content1.setText("Context - Overview");
         content1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         content1.setMaximumSize(new java.awt.Dimension(700, 33));
         content1.setMinimumSize(new java.awt.Dimension(700, 33));
@@ -133,19 +133,11 @@ public class PantallaMenu extends javax.swing.JFrame {
 
         content6.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         content6.setForeground(new java.awt.Color(227, 218, 201));
-        content6.setText("STREAMS ");
+        content6.setText("Performance");
         content6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         content6.setMaximumSize(new java.awt.Dimension(700, 33));
         content6.setMinimumSize(new java.awt.Dimension(700, 33));
         content6.setPreferredSize(new java.awt.Dimension(700, 40));
-
-        content7.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
-        content7.setForeground(new java.awt.Color(227, 218, 201));
-        content7.setText("Performance");
-        content7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        content7.setMaximumSize(new java.awt.Dimension(700, 33));
-        content7.setMinimumSize(new java.awt.Dimension(700, 33));
-        content7.setPreferredSize(new java.awt.Dimension(700, 40));
 
         siguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/siguiente.png"))); // NOI18N
         siguiente.setAlignmentX(1.0F);
@@ -196,23 +188,15 @@ public class PantallaMenu extends javax.swing.JFrame {
             }
         });
 
-        btnTema1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema1.png"))); // NOI18N
-        btnTema1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnTema1.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnContexto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema1.png"))); // NOI18N
+        btnContexto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnContexto.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnTema1MouseClicked(evt);
+                btnContextoMouseClicked(evt);
             }
         });
 
-        btnTema3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema3.png"))); // NOI18N
-        btnTema3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnTema3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnTema3MouseClicked(evt);
-            }
-        });
-
-        btnTema2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema2.png"))); // NOI18N
+        btnTema2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema3.png"))); // NOI18N
         btnTema2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnTema2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -220,7 +204,23 @@ public class PantallaMenu extends javax.swing.JFrame {
             }
         });
 
-        btnTema4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema4.png"))); // NOI18N
+        btnTema1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema2.png"))); // NOI18N
+        btnTema1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema1MouseClicked(evt);
+            }
+        });
+
+        btnTema3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema4.png"))); // NOI18N
+        btnTema3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema3MouseClicked(evt);
+            }
+        });
+
+        btnTema4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema5.png"))); // NOI18N
         btnTema4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnTema4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -228,7 +228,7 @@ public class PantallaMenu extends javax.swing.JFrame {
             }
         });
 
-        btnTema5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema5.png"))); // NOI18N
+        btnTema5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema6.png"))); // NOI18N
         btnTema5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnTema5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -236,19 +236,19 @@ public class PantallaMenu extends javax.swing.JFrame {
             }
         });
 
-        btnTema6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema6.png"))); // NOI18N
-        btnTema6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnTema6.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnEvaluacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/evaluacion.png"))); // NOI18N
+        btnEvaluacion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnEvaluacion.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnTema6MouseClicked(evt);
+                btnEvaluacionMouseClicked(evt);
             }
         });
 
-        btnTema7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema7.png"))); // NOI18N
-        btnTema7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnTema7.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnSalida.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/salida.png"))); // NOI18N
+        btnSalida.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnSalida.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnTema7MouseClicked(evt);
+                btnSalidaMouseClicked(evt);
             }
         });
 
@@ -260,15 +260,16 @@ public class PantallaMenu extends javax.swing.JFrame {
             .addGroup(menuLateralLayout.createSequentialGroup()
                 .addGap(93, 93, 93)
                 .addGroup(menuLateralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnTema7)
-                    .addComponent(btnTema6)
+                    .addComponent(btnSalida)
+                    .addComponent(btnEvaluacion)
                     .addComponent(btnTema5)
+                    .addComponent(btnTema4)
                     .addComponent(btnContenido)
                     .addComponent(btnHome, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnContexto)
                     .addComponent(btnTema1)
                     .addComponent(btnTema2)
-                    .addComponent(btnTema3)
-                    .addComponent(btnTema4))
+                    .addComponent(btnTema3))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         menuLateralLayout.setVerticalGroup(
@@ -276,10 +277,12 @@ public class PantallaMenu extends javax.swing.JFrame {
             .addGroup(menuLateralLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(menu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnHome)
                 .addGap(18, 18, 18)
                 .addComponent(btnContenido)
+                .addGap(18, 18, 18)
+                .addComponent(btnContexto)
                 .addGap(18, 18, 18)
                 .addComponent(btnTema1)
                 .addGap(18, 18, 18)
@@ -291,9 +294,9 @@ public class PantallaMenu extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(btnTema5)
                 .addGap(18, 18, 18)
-                .addComponent(btnTema6)
+                .addComponent(btnEvaluacion)
                 .addGap(18, 18, 18)
-                .addComponent(btnTema7)
+                .addComponent(btnSalida)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -321,14 +324,13 @@ public class PantallaMenu extends javax.swing.JFrame {
                         .addGap(20, 20, 20))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(100, 100, 100)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(content2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(content3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(content4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(content5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(content6, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(content7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(content1, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(content2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(content3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(content4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(content5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(content1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(content6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -356,9 +358,7 @@ public class PantallaMenu extends javax.swing.JFrame {
                         .addComponent(content5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(content6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(content7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(44, 44, 44)
+                        .addGap(90, 90, 90)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(anterior)
                             .addComponent(siguiente))
@@ -420,6 +420,12 @@ public class PantallaMenu extends javax.swing.JFrame {
         PantallaMenu menu = new PantallaMenu();
         menu.setVisible(true);
     }//GEN-LAST:event_btnContenidoMouseClicked
+ 
+    private void btnContextoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnContextoMouseClicked
+        setVisible(false);
+        PantallaContexto contexto = new PantallaContexto();
+        contexto.setVisible(true);
+    }//GEN-LAST:event_btnContextoMouseClicked
 
     private void btnTema1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema1MouseClicked
         setVisible(false);
@@ -451,37 +457,37 @@ public class PantallaMenu extends javax.swing.JFrame {
         pantalla.setVisible(true);
     }//GEN-LAST:event_btnTema5MouseClicked
 
-    private void btnTema6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema6MouseClicked
+    private void btnEvaluacionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEvaluacionMouseClicked
         setVisible(false);
-        PantallaTema6 pantalla = new PantallaTema6();
-        pantalla.setVisible(true);
-    }//GEN-LAST:event_btnTema6MouseClicked
+        PantallaEvaluacion evaluacion = new PantallaEvaluacion();
+        evaluacion.setVisible(true);
+    }//GEN-LAST:event_btnEvaluacionMouseClicked
 
-    private void btnTema7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema7MouseClicked
+    private void btnSalidaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSalidaMouseClicked
         setVisible(false);
-        PantallaTema7 pantalla = new PantallaTema7();
-        pantalla.setVisible(true);
-    }//GEN-LAST:event_btnTema7MouseClicked
+        PantallaSalida salida = new PantallaSalida();
+        salida.setVisible(true);
+    }//GEN-LAST:event_btnSalidaMouseClicked
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel anterior;
     private javax.swing.JLabel btnContenido;
+    private javax.swing.JLabel btnContexto;
+    private javax.swing.JLabel btnEvaluacion;
     private javax.swing.JLabel btnExit;
     private javax.swing.JLabel btnHome;
+    private javax.swing.JLabel btnSalida;
     private javax.swing.JLabel btnTema1;
     private javax.swing.JLabel btnTema2;
     private javax.swing.JLabel btnTema3;
     private javax.swing.JLabel btnTema4;
     private javax.swing.JLabel btnTema5;
-    private javax.swing.JLabel btnTema6;
-    private javax.swing.JLabel btnTema7;
     private javax.swing.JLabel content1;
     private javax.swing.JLabel content2;
     private javax.swing.JLabel content3;
     private javax.swing.JLabel content4;
     private javax.swing.JLabel content5;
     private javax.swing.JLabel content6;
-    private javax.swing.JLabel content7;
     private javax.swing.JPanel header;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel menu;
