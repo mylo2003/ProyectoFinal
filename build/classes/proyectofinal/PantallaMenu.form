@@ -477,6 +477,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnHomeMouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnContenido">
               <Properties>
@@ -487,6 +490,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnContenidoMouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnTema1">
               <Properties>
@@ -497,6 +503,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTema1MouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnTema3">
               <Properties>
@@ -507,6 +516,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTema3MouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnTema2">
               <Properties>
@@ -517,6 +529,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTema2MouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnTema4">
               <Properties>
@@ -527,6 +542,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTema4MouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnTema5">
               <Properties>
@@ -537,6 +555,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTema5MouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnTema6">
               <Properties>
@@ -547,6 +568,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTema6MouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btnTema7">
               <Properties>
@@ -557,6 +581,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTema7MouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

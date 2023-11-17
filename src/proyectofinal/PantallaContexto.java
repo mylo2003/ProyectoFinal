@@ -20,15 +20,15 @@ public class PantallaContexto extends javax.swing.JFrame {
         siguiente = new javax.swing.JLabel();
         menuLateral = new javax.swing.JPanel();
         menu = new javax.swing.JLabel();
+        btnTema7 = new javax.swing.JLabel();
         btnHome = new javax.swing.JLabel();
         btnContenido = new javax.swing.JLabel();
         btnTema1 = new javax.swing.JLabel();
-        btnTema2 = new javax.swing.JLabel();
         btnTema3 = new javax.swing.JLabel();
+        btnTema2 = new javax.swing.JLabel();
         btnTema4 = new javax.swing.JLabel();
         btnTema5 = new javax.swing.JLabel();
         btnTema6 = new javax.swing.JLabel();
-        btnTema7 = new javax.swing.JLabel();
         titulo_contexto = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -112,33 +112,78 @@ public class PantallaContexto extends javax.swing.JFrame {
         menu.setMinimumSize(new java.awt.Dimension(220, 48));
         menu.setPreferredSize(new java.awt.Dimension(220, 48));
 
+        btnTema7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema7.png"))); // NOI18N
+        btnTema7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema7MouseClicked(evt);
+            }
+        });
+
         btnHome.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         btnHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/home.png"))); // NOI18N
         btnHome.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnHome.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnHomeMouseClicked(evt);
+            }
+        });
 
         btnContenido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/contenido.png"))); // NOI18N
         btnContenido.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnContenido.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnContenidoMouseClicked(evt);
+            }
+        });
 
         btnTema1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema1.png"))); // NOI18N
         btnTema1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-        btnTema2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema2.png"))); // NOI18N
-        btnTema2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema1MouseClicked(evt);
+            }
+        });
 
         btnTema3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema3.png"))); // NOI18N
         btnTema3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema3MouseClicked(evt);
+            }
+        });
+
+        btnTema2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema2.png"))); // NOI18N
+        btnTema2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema2MouseClicked(evt);
+            }
+        });
 
         btnTema4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema4.png"))); // NOI18N
         btnTema4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema4MouseClicked(evt);
+            }
+        });
 
         btnTema5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema5.png"))); // NOI18N
         btnTema5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema5MouseClicked(evt);
+            }
+        });
 
         btnTema6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema6.png"))); // NOI18N
         btnTema6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-        btnTema7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/tema7.png"))); // NOI18N
-        btnTema7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTema6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnTema6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout menuLateralLayout = new javax.swing.GroupLayout(menuLateral);
         menuLateral.setLayout(menuLateralLayout);
@@ -153,7 +198,7 @@ public class PantallaContexto extends javax.swing.JFrame {
                         .addComponent(btnTema6)
                         .addComponent(btnTema5)
                         .addComponent(btnContenido)
-                        .addComponent(btnHome)
+                        .addComponent(btnHome, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnTema1)
                         .addComponent(btnTema2)
                         .addComponent(btnTema3)
@@ -165,7 +210,7 @@ public class PantallaContexto extends javax.swing.JFrame {
             .addGroup(menuLateralLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(menu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(526, Short.MAX_VALUE))
             .addGroup(menuLateralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(menuLateralLayout.createSequentialGroup()
                     .addGap(74, 74, 74)
@@ -275,6 +320,60 @@ public class PantallaContexto extends javax.swing.JFrame {
         pantalla1.setVisible(true);
         pantalla1.setLocationRelativeTo(null);
     }//GEN-LAST:event_siguienteMouseClicked
+
+    private void btnTema7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema7MouseClicked
+        setVisible(false);
+        PantallaTema7 pantalla = new PantallaTema7();
+        pantalla.setVisible(true);
+    }//GEN-LAST:event_btnTema7MouseClicked
+
+    private void btnHomeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnHomeMouseClicked
+        setVisible(false);
+        PantallaInicio inicio = new PantallaInicio();
+        inicio.setVisible(true);
+    }//GEN-LAST:event_btnHomeMouseClicked
+
+    private void btnContenidoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnContenidoMouseClicked
+        setVisible(false);
+        PantallaMenu menu = new PantallaMenu();
+        menu.setVisible(true);
+    }//GEN-LAST:event_btnContenidoMouseClicked
+
+    private void btnTema1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema1MouseClicked
+        setVisible(false);
+        PantallaTema1 pantalla = new PantallaTema1();
+        pantalla.setVisible(true);
+    }//GEN-LAST:event_btnTema1MouseClicked
+
+    private void btnTema3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema3MouseClicked
+        setVisible(false);
+        PantallaTema3 pantalla = new PantallaTema3();
+        pantalla.setVisible(true);
+    }//GEN-LAST:event_btnTema3MouseClicked
+
+    private void btnTema2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema2MouseClicked
+        setVisible(false);
+        PantallaTema2 pantalla = new PantallaTema2();
+        pantalla.setVisible(true);
+    }//GEN-LAST:event_btnTema2MouseClicked
+
+    private void btnTema4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema4MouseClicked
+        setVisible(false);
+        PantallaTema4 pantalla = new PantallaTema4();
+        pantalla.setVisible(true);
+    }//GEN-LAST:event_btnTema4MouseClicked
+
+    private void btnTema5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema5MouseClicked
+        setVisible(false);
+        PantallaTema5 pantalla = new PantallaTema5();
+        pantalla.setVisible(true);
+    }//GEN-LAST:event_btnTema5MouseClicked
+
+    private void btnTema6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTema6MouseClicked
+        setVisible(false);
+        PantallaTema6 pantalla = new PantallaTema6();
+        pantalla.setVisible(true);
+    }//GEN-LAST:event_btnTema6MouseClicked
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel anterior;
