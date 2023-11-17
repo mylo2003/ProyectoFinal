@@ -1,6 +1,5 @@
 package proyectofinal;
 
-import java.awt.Color;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -26,7 +25,7 @@ public class PantallaInicio extends javax.swing.JFrame {
         carrera = new javax.swing.JLabel();
         logoUni = new javax.swing.JLabel();
         header = new javax.swing.JPanel();
-        exit = new javax.swing.JLabel();
+        btnExit = new javax.swing.JLabel();
         btnIniciar = new javax.swing.JLabel();
         btnSalir = new javax.swing.JLabel();
         btnEnglish = new javax.swing.JButton();
@@ -34,6 +33,7 @@ public class PantallaInicio extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
+        setMaximumSize(new java.awt.Dimension(1200, 626));
         setUndecorated(true);
         setResizable(false);
 
@@ -101,20 +101,20 @@ public class PantallaInicio extends javax.swing.JFrame {
             }
         });
 
-        exit.setFont(new java.awt.Font("JetBrains Mono", 0, 36)); // NOI18N
-        exit.setForeground(new java.awt.Color(255, 175, 94));
-        exit.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/exit.png"))); // NOI18N
-        exit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        exit.setMaximumSize(new java.awt.Dimension(40, 40));
-        exit.setMinimumSize(new java.awt.Dimension(40, 40));
-        exit.setPreferredSize(new java.awt.Dimension(40, 40));
-        exit.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnExit.setFont(new java.awt.Font("JetBrains Mono", 0, 36)); // NOI18N
+        btnExit.setForeground(new java.awt.Color(255, 175, 94));
+        btnExit.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        btnExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/exit.png"))); // NOI18N
+        btnExit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnExit.setMaximumSize(new java.awt.Dimension(40, 40));
+        btnExit.setMinimumSize(new java.awt.Dimension(40, 40));
+        btnExit.setPreferredSize(new java.awt.Dimension(40, 40));
+        btnExit.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                exitMouseClicked(evt);
+                btnExitMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                exitMouseEntered(evt);
+                btnExitMouseEntered(evt);
             }
         });
 
@@ -123,14 +123,14 @@ public class PantallaInicio extends javax.swing.JFrame {
         headerLayout.setHorizontalGroup(
             headerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(headerLayout.createSequentialGroup()
-                .addComponent(exit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnExit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         headerLayout.setVerticalGroup(
             headerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, headerLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(exit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(btnExit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         btnIniciar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/siguiente.png"))); // NOI18N
@@ -206,7 +206,7 @@ public class PantallaInicio extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnEnglish)
                             .addComponent(btnSpanish))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
                         .addComponent(logoUni, javax.swing.GroupLayout.PREFERRED_SIZE, 408, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(105, 105, 105))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -222,11 +222,11 @@ public class PantallaInicio extends javax.swing.JFrame {
                         .addComponent(profesor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(carrera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnSalir)
-                            .addComponent(btnIniciar))
-                        .addContainerGap(69, Short.MAX_VALUE))))
+                            .addComponent(btnIniciar)
+                            .addComponent(btnSalir))
+                        .addGap(15, 15, 15))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -264,13 +264,13 @@ public class PantallaInicio extends javax.swing.JFrame {
         this.setLocation(x - xMouse, y - yMouse);
     }//GEN-LAST:event_headerMouseDragged
 
-    private void exitMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitMouseClicked
+    private void btnExitMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnExitMouseClicked
         System.exit(0);
-    }//GEN-LAST:event_exitMouseClicked
+    }//GEN-LAST:event_btnExitMouseClicked
 
-    private void exitMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitMouseEntered
+    private void btnExitMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnExitMouseEntered
         //exit.setBackground(Color.ORANGE);
-    }//GEN-LAST:event_exitMouseEntered
+    }//GEN-LAST:event_btnExitMouseEntered
 
     private void btnSalirMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSalirMouseClicked
         System.exit(0);
@@ -290,15 +290,14 @@ public class PantallaInicio extends javax.swing.JFrame {
         cambiarIdioma(new Locale("es", "ES"));
     }//GEN-LAST:event_btnSpanishActionPerformed
 
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEnglish;
+    private javax.swing.JLabel btnExit;
     private javax.swing.JLabel btnIniciar;
     private javax.swing.JLabel btnSalir;
     private javax.swing.JButton btnSpanish;
     private javax.swing.JLabel carrera;
     private javax.swing.JLabel creadores;
-    private javax.swing.JLabel exit;
     private javax.swing.JPanel header;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel logoUni;
