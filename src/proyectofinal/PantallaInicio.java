@@ -55,6 +55,7 @@ public class PantallaInicio extends javax.swing.JFrame {
         logoUni.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/LogoUni.png"))); // NOI18N
 
         header.setBackground(new java.awt.Color(101, 3, 29));
+        header.setPreferredSize(new java.awt.Dimension(1200, 40));
         header.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 headerMouseDragged(evt);
@@ -147,8 +148,8 @@ public class PantallaInicio extends javax.swing.JFrame {
                         .addGap(105, 105, 105))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(102, 102, 102)
-                        .addComponent(titulo, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(72, 72, 72)
+                        .addComponent(titulo)
+                        .addGap(42, 42, 42)
                         .addComponent(nombre1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(nombre2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -202,7 +203,7 @@ public class PantallaInicio extends javax.swing.JFrame {
 
     private void btnIniciarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnIniciarMouseClicked
         setVisible(false);
-        PantallaContexto contexto = new PantallaContexto();
+        PantallaMenu contexto = new PantallaMenu();
         contexto.setVisible(true);
     }//GEN-LAST:event_btnIniciarMouseClicked
 
