@@ -19,7 +19,7 @@ public class PantallaContexto extends javax.swing.JFrame {
         anterior = new javax.swing.JLabel();
         siguiente = new javax.swing.JLabel();
         menuLateral = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        menu = new javax.swing.JLabel();
         titulo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -32,6 +32,7 @@ public class PantallaContexto extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(1200, 626));
 
         header.setBackground(new java.awt.Color(66, 0, 4));
+        header.setMaximumSize(new java.awt.Dimension(1200, 40));
         header.setPreferredSize(new java.awt.Dimension(1200, 40));
         header.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
@@ -47,8 +48,10 @@ public class PantallaContexto extends javax.swing.JFrame {
         exit.setFont(new java.awt.Font("JetBrains Mono", 0, 36)); // NOI18N
         exit.setForeground(new java.awt.Color(255, 175, 94));
         exit.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        exit.setText("x");
+        exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/exit.png"))); // NOI18N
         exit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        exit.setMaximumSize(new java.awt.Dimension(40, 40));
+        exit.setMinimumSize(new java.awt.Dimension(40, 40));
         exit.setPreferredSize(new java.awt.Dimension(40, 40));
         exit.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -88,25 +91,28 @@ public class PantallaContexto extends javax.swing.JFrame {
         });
 
         menuLateral.setBackground(new java.awt.Color(66, 0, 4));
+        menuLateral.setMaximumSize(new java.awt.Dimension(220, 586));
         menuLateral.setPreferredSize(new java.awt.Dimension(220, 586));
 
-        jLabel1.setFont(new java.awt.Font("JetBrains Mono", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 175, 94));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Menu");
-        jLabel1.setPreferredSize(new java.awt.Dimension(220, 48));
+        menu.setFont(new java.awt.Font("JetBrains Mono", 1, 36)); // NOI18N
+        menu.setForeground(new java.awt.Color(255, 175, 94));
+        menu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        menu.setText("Menu");
+        menu.setMaximumSize(new java.awt.Dimension(220, 48));
+        menu.setMinimumSize(new java.awt.Dimension(220, 48));
+        menu.setPreferredSize(new java.awt.Dimension(220, 48));
 
         javax.swing.GroupLayout menuLateralLayout = new javax.swing.GroupLayout(menuLateral);
         menuLateral.setLayout(menuLateralLayout);
         menuLateralLayout.setHorizontalGroup(
             menuLateralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(menu, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         menuLateralLayout.setVerticalGroup(
             menuLateralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(menuLateralLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(menu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -114,6 +120,8 @@ public class PantallaContexto extends javax.swing.JFrame {
         titulo.setForeground(new java.awt.Color(255, 175, 94));
         titulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titulo.setText("Contexto");
+        titulo.setMaximumSize(new java.awt.Dimension(968, 48));
+        titulo.setMinimumSize(new java.awt.Dimension(968, 48));
         titulo.setPreferredSize(new java.awt.Dimension(968, 48));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -200,8 +208,8 @@ public class PantallaContexto extends javax.swing.JFrame {
     private javax.swing.JLabel anterior;
     private javax.swing.JLabel exit;
     private javax.swing.JPanel header;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel menu;
     private javax.swing.JPanel menuLateral;
     private javax.swing.JLabel siguiente;
     private javax.swing.JLabel titulo;
