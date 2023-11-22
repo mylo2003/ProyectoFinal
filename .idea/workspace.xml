@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c151b291-1594-4697-93e9-a0d52dded0ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/classes/idiomas/texto_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/idiomas/texto_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/idiomas/texto_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/idiomas/texto_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaContexto.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaEvaluacion.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaInicio.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaMenu.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaSalida.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema2.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema3.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema4.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/PantallaTema5.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/proyectofinal/ProyectoFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/proyectofinal/ProyectoFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/idiomas/texto_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/idiomas/texto_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/idiomas/texto_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/idiomas/texto_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaContexto.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaContexto.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaContexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaContexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaEvaluacion.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaEvaluacion.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaInicio.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaInicio.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaInicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaMenu.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaMenu.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaSalida.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaSalida.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema2.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema2.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema3.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema3.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema4.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema4.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema5.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema5.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectofinal/PantallaTema5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectofinal/PantallaTema5.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2YUmd8sQl45lAM4GCXlvbALvMjg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/johan/OneDrive/Documentos/GitHub/ProyectoFinal"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c151b291-1594-4697-93e9-a0d52dded0ef" name="Changes" comment="" />
+      <created>1700588617186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700588617186</updated>
+    </task>
+    <servers />
+  </component>
+</project>

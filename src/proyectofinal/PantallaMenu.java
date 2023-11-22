@@ -1,12 +1,32 @@
 package proyectofinal;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 public class PantallaMenu extends javax.swing.JFrame {
-    
+
     int xMouse, yMouse;
-    
+
     public PantallaMenu() {
         initComponents();
         setLocationRelativeTo(null);
+    }
+
+    private void cambiarIdioma(Locale locale) {
+        ResourceBundle texto = ResourceBundle.getBundle("idiomas.texto", locale);
+
+        menu.setText(texto.getString("menu"));
+        btnSpanish.setText(texto.getString("spanish"));
+        btnEnglish.setText(texto.getString("english"));
+
+        content1.setText(texto.getString("context_Overview"));
+        content2.setText(texto.getString("ioHardware"));
+        content3.setText(texto.getString("applicationIoInterface"));
+        content4.setText(texto.getString("kernelSubsystem"));
+        content5.setText(texto.getString("transRequestHardwareOperations"));
+        content6.setText(texto.getString("performance"));
+        titulo_menu.setText(texto.getString("titleMenu"));
+
     }
 
     @SuppressWarnings("unchecked")
@@ -37,6 +57,8 @@ public class PantallaMenu extends javax.swing.JFrame {
         btnEvaluacion = new javax.swing.JLabel();
         btnSalida = new javax.swing.JLabel();
         titulo_menu = new javax.swing.JLabel();
+        btnSpanish = new javax.swing.JButton();
+        btnEnglish = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -98,6 +120,11 @@ public class PantallaMenu extends javax.swing.JFrame {
         content1.setMaximumSize(new java.awt.Dimension(700, 33));
         content1.setMinimumSize(new java.awt.Dimension(700, 33));
         content1.setPreferredSize(new java.awt.Dimension(700, 40));
+        content1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                content1MouseClicked(evt);
+            }
+        });
 
         content2.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         content2.setForeground(new java.awt.Color(227, 218, 201));
@@ -106,6 +133,11 @@ public class PantallaMenu extends javax.swing.JFrame {
         content2.setMaximumSize(new java.awt.Dimension(700, 33));
         content2.setMinimumSize(new java.awt.Dimension(700, 33));
         content2.setPreferredSize(new java.awt.Dimension(700, 40));
+        content2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                content2MouseClicked(evt);
+            }
+        });
 
         content3.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         content3.setForeground(new java.awt.Color(227, 218, 201));
@@ -114,6 +146,11 @@ public class PantallaMenu extends javax.swing.JFrame {
         content3.setMaximumSize(new java.awt.Dimension(700, 33));
         content3.setMinimumSize(new java.awt.Dimension(700, 33));
         content3.setPreferredSize(new java.awt.Dimension(700, 40));
+        content3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                content3MouseClicked(evt);
+            }
+        });
 
         content4.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         content4.setForeground(new java.awt.Color(227, 218, 201));
@@ -122,6 +159,11 @@ public class PantallaMenu extends javax.swing.JFrame {
         content4.setMaximumSize(new java.awt.Dimension(700, 33));
         content4.setMinimumSize(new java.awt.Dimension(700, 33));
         content4.setPreferredSize(new java.awt.Dimension(700, 40));
+        content4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                content4MouseClicked(evt);
+            }
+        });
 
         content5.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         content5.setForeground(new java.awt.Color(227, 218, 201));
@@ -130,6 +172,11 @@ public class PantallaMenu extends javax.swing.JFrame {
         content5.setMaximumSize(new java.awt.Dimension(700, 33));
         content5.setMinimumSize(new java.awt.Dimension(700, 33));
         content5.setPreferredSize(new java.awt.Dimension(700, 40));
+        content5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                content5MouseClicked(evt);
+            }
+        });
 
         content6.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         content6.setForeground(new java.awt.Color(227, 218, 201));
@@ -138,6 +185,11 @@ public class PantallaMenu extends javax.swing.JFrame {
         content6.setMaximumSize(new java.awt.Dimension(700, 33));
         content6.setMinimumSize(new java.awt.Dimension(700, 33));
         content6.setPreferredSize(new java.awt.Dimension(700, 40));
+        content6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                content6MouseClicked(evt);
+            }
+        });
 
         siguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/siguiente.png"))); // NOI18N
         siguiente.setAlignmentX(1.0F);
@@ -308,6 +360,24 @@ public class PantallaMenu extends javax.swing.JFrame {
         titulo_menu.setMinimumSize(new java.awt.Dimension(968, 48));
         titulo_menu.setPreferredSize(new java.awt.Dimension(968, 48));
 
+        btnSpanish.setText("Spanish");
+        btnSpanish.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnSpanish.setFocusable(false);
+        btnSpanish.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSpanishActionPerformed(evt);
+            }
+        });
+
+        btnEnglish.setText("English");
+        btnEnglish.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnEnglish.setFocusable(false);
+        btnEnglish.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnglishActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -324,18 +394,25 @@ public class PantallaMenu extends javax.swing.JFrame {
                         .addGap(20, 20, 20))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(100, 100, 100)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(content2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(content3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(content4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(content5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(content1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(content6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(content2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(content3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(content4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(content1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(content6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(content5, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(titulo_menu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())))
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnSpanish)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnEnglish)
+                        .addGap(44, 44, 44))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -344,7 +421,11 @@ public class PantallaMenu extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(0, 46, Short.MAX_VALUE)
+                        .addGap(0, 11, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnEnglish)
+                            .addComponent(btnSpanish))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(titulo_menu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(26, 26, 26)
                         .addComponent(content1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -385,8 +466,8 @@ public class PantallaMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_btnExitMouseClicked
 
     private void headerMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_headerMousePressed
-       xMouse = evt.getX();
-       yMouse = evt.getY();
+        xMouse = evt.getX();
+        yMouse = evt.getY();
     }//GEN-LAST:event_headerMousePressed
 
     private void headerMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_headerMouseDragged
@@ -420,7 +501,7 @@ public class PantallaMenu extends javax.swing.JFrame {
         PantallaMenu menu = new PantallaMenu();
         menu.setVisible(true);
     }//GEN-LAST:event_btnContenidoMouseClicked
- 
+
     private void btnContextoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnContextoMouseClicked
         setVisible(false);
         PantallaContexto contexto = new PantallaContexto();
@@ -469,14 +550,48 @@ public class PantallaMenu extends javax.swing.JFrame {
         salida.setVisible(true);
     }//GEN-LAST:event_btnSalidaMouseClicked
 
+    private void content1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_content1MouseClicked
+        btnContextoMouseClicked(evt);
+    }//GEN-LAST:event_content1MouseClicked
+
+    private void content2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_content2MouseClicked
+        btnTema1MouseClicked(evt);
+    }//GEN-LAST:event_content2MouseClicked
+
+    private void content3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_content3MouseClicked
+        btnTema2MouseClicked(evt);
+    }//GEN-LAST:event_content3MouseClicked
+
+    private void content4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_content4MouseClicked
+        btnTema3MouseClicked(evt);
+    }//GEN-LAST:event_content4MouseClicked
+
+    private void content5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_content5MouseClicked
+        btnTema4MouseClicked(evt);
+    }//GEN-LAST:event_content5MouseClicked
+
+    private void content6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_content6MouseClicked
+        btnTema5MouseClicked(evt);
+    }//GEN-LAST:event_content6MouseClicked
+
+    private void btnSpanishActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSpanishActionPerformed
+        cambiarIdioma(new Locale("es", "ES"));
+    }//GEN-LAST:event_btnSpanishActionPerformed
+
+    private void btnEnglishActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnglishActionPerformed
+        cambiarIdioma(new Locale("en", "US"));
+    }//GEN-LAST:event_btnEnglishActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel anterior;
     private javax.swing.JLabel btnContenido;
     private javax.swing.JLabel btnContexto;
+    private javax.swing.JButton btnEnglish;
     private javax.swing.JLabel btnEvaluacion;
     private javax.swing.JLabel btnExit;
     private javax.swing.JLabel btnHome;
     private javax.swing.JLabel btnSalida;
+    private javax.swing.JButton btnSpanish;
     private javax.swing.JLabel btnTema1;
     private javax.swing.JLabel btnTema2;
     private javax.swing.JLabel btnTema3;

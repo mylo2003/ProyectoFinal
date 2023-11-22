@@ -1,9 +1,12 @@
 package proyectofinal;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 public class PantallaTema5 extends javax.swing.JFrame {
 
     int xMouse, yMouse;
-    
+
     public PantallaTema5() {
         initComponents();
         setLocationRelativeTo(null);
@@ -31,6 +34,8 @@ public class PantallaTema5 extends javax.swing.JFrame {
         btnEvaluacion = new javax.swing.JLabel();
         btnSalida = new javax.swing.JLabel();
         titulo_tema5 = new javax.swing.JLabel();
+        btnSpanish = new javax.swing.JButton();
+        btnEnglish = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -250,6 +255,24 @@ public class PantallaTema5 extends javax.swing.JFrame {
         titulo_tema5.setMinimumSize(new java.awt.Dimension(968, 48));
         titulo_tema5.setPreferredSize(new java.awt.Dimension(968, 48));
 
+        btnSpanish.setText("Spanish");
+        btnSpanish.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnSpanish.setFocusable(false);
+        btnSpanish.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSpanishActionPerformed(evt);
+            }
+        });
+
+        btnEnglish.setText("English");
+        btnEnglish.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnEnglish.setFocusable(false);
+        btnEnglish.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnglishActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -257,16 +280,24 @@ public class PantallaTema5 extends javax.swing.JFrame {
             .addComponent(header, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(menuLateral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(titulo_tema5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(anterior)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 781, Short.MAX_VALUE)
-                        .addComponent(siguiente)
-                        .addGap(21, 21, 21))))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(titulo_tema5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                .addContainerGap())
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(anterior)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 781, Short.MAX_VALUE)
+                                .addComponent(siguiente)
+                                .addGap(21, 21, 21))))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnSpanish)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnEnglish)
+                        .addGap(43, 43, 43))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -277,7 +308,11 @@ public class PantallaTema5 extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(menuLateral, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(53, 53, 53)
+                        .addGap(24, 24, 24)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnEnglish)
+                            .addComponent(btnSpanish))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(titulo_tema5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 385, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -310,6 +345,16 @@ public class PantallaTema5 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void cambiarIdioma(Locale locale) {
+        ResourceBundle texto = ResourceBundle.getBundle("idiomas.texto", locale);
+
+        menu.setText(texto.getString("menu"));
+        btnSpanish.setText(texto.getString("spanish"));
+        btnEnglish.setText(texto.getString("english"));
+        titulo_tema5.setText(texto.getString("performance"));
+
+    }
+
     private void btnExitMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnExitMouseClicked
         System.exit(0);
     }//GEN-LAST:event_btnExitMouseClicked
@@ -327,7 +372,7 @@ public class PantallaTema5 extends javax.swing.JFrame {
 
     private void anteriorMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_anteriorMouseClicked
         setVisible(false);
-        PantallaTema4 pantalla4= new PantallaTema4();
+        PantallaTema4 pantalla4 = new PantallaTema4();
         pantalla4.setVisible(true);
         pantalla4.setLocationRelativeTo(null);
     }//GEN-LAST:event_anteriorMouseClicked
@@ -399,14 +444,24 @@ public class PantallaTema5 extends javax.swing.JFrame {
         salida.setVisible(true);
     }//GEN-LAST:event_btnSalidaMouseClicked
 
+    private void btnSpanishActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSpanishActionPerformed
+        cambiarIdioma(new Locale("es", "ES"));
+    }//GEN-LAST:event_btnSpanishActionPerformed
+
+    private void btnEnglishActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnglishActionPerformed
+        cambiarIdioma(new Locale("en", "US"));
+    }//GEN-LAST:event_btnEnglishActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel anterior;
     private javax.swing.JLabel btnContenido;
     private javax.swing.JLabel btnContexto;
+    private javax.swing.JButton btnEnglish;
     private javax.swing.JLabel btnEvaluacion;
     private javax.swing.JLabel btnExit;
     private javax.swing.JLabel btnHome3;
     private javax.swing.JLabel btnSalida;
+    private javax.swing.JButton btnSpanish;
     private javax.swing.JLabel btnTema1;
     private javax.swing.JLabel btnTema2;
     private javax.swing.JLabel btnTema3;

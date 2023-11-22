@@ -109,7 +109,7 @@
                               <Component id="btnEnglish" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="btnSpanish" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="44" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="logoUni" min="-2" pref="408" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
                       </Group>
@@ -122,7 +122,7 @@
                           <Component id="nombre1" min="-2" pref="32" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="nombre2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="30" max="32767" attributes="0"/>
                           <Component id="profesor" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="carrera" min="-2" max="-2" attributes="0"/>
@@ -363,7 +363,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnEnglish">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ingl&#xe9;s"/>
+            <Property name="text" type="java.lang.String" value="English"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>
@@ -375,7 +375,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnSpanish">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Espa&#xf1;ol"/>
+            <Property name="text" type="java.lang.String" value="Spanish"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>

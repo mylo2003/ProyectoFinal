@@ -68,13 +68,15 @@
                       </Group>
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="content2" max="32767" attributes="0"/>
-                              <Component id="content3" alignment="0" max="32767" attributes="0"/>
-                              <Component id="content4" alignment="0" max="32767" attributes="0"/>
-                              <Component id="content5" alignment="0" max="32767" attributes="0"/>
-                              <Component id="content1" alignment="0" max="32767" attributes="0"/>
-                              <Component id="content6" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="content2" max="32767" attributes="0"/>
+                                  <Component id="content3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="content4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="content1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="content6" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="content5" min="-2" pref="800" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -82,6 +84,13 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="titulo_menu" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="btnSpanish" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnEnglish" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -94,7 +103,12 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="46" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnEnglish" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnSpanish" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="titulo_menu" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                           <Component id="content1" min="-2" max="-2" attributes="0"/>
@@ -211,6 +225,9 @@
               <Dimension value="[700, 40]"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="content1MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="content2">
           <Properties>
@@ -234,6 +251,9 @@
               <Dimension value="[700, 40]"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="content2MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="content3">
           <Properties>
@@ -257,6 +277,9 @@
               <Dimension value="[700, 40]"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="content3MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="content4">
           <Properties>
@@ -280,6 +303,9 @@
               <Dimension value="[700, 40]"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="content4MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="content5">
           <Properties>
@@ -303,6 +329,9 @@
               <Dimension value="[700, 40]"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="content5MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="content6">
           <Properties>
@@ -326,6 +355,9 @@
               <Dimension value="[700, 40]"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="content6MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="siguiente">
           <Properties>
@@ -597,6 +629,30 @@
               <Dimension value="[968, 48]"/>
             </Property>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSpanish">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Spanish"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSpanishActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEnglish">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="English"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEnglishActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>

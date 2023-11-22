@@ -4,14 +4,14 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class PantallaInicio extends javax.swing.JFrame {
-     
+
     int xMouse, yMouse;
-    
+
     public PantallaInicio() {
         initComponents();
         setLocationRelativeTo(null);
     }
-  
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -149,7 +149,7 @@ public class PantallaInicio extends javax.swing.JFrame {
             }
         });
 
-        btnEnglish.setText("Inglés");
+        btnEnglish.setText("English");
         btnEnglish.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnEnglish.setFocusable(false);
         btnEnglish.addActionListener(new java.awt.event.ActionListener() {
@@ -158,7 +158,7 @@ public class PantallaInicio extends javax.swing.JFrame {
             }
         });
 
-        btnSpanish.setText("Español");
+        btnSpanish.setText("Spanish");
         btnSpanish.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSpanish.setFocusable(false);
         btnSpanish.addActionListener(new java.awt.event.ActionListener() {
@@ -211,7 +211,7 @@ public class PantallaInicio extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnEnglish)
                             .addComponent(btnSpanish))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(logoUni, javax.swing.GroupLayout.PREFERRED_SIZE, 408, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(105, 105, 105))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -223,7 +223,7 @@ public class PantallaInicio extends javax.swing.JFrame {
                         .addComponent(nombre1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(nombre2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
                         .addComponent(profesor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(carrera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -247,7 +247,7 @@ public class PantallaInicio extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-        
+
     private void cambiarIdioma(Locale locale) {
         ResourceBundle texto = ResourceBundle.getBundle("idiomas.texto", locale);
 
@@ -256,8 +256,11 @@ public class PantallaInicio extends javax.swing.JFrame {
         profesor.setText(texto.getString("profesor"));
         creadores.setText(texto.getString("creadores"));
         nombre1.setText(texto.getString("nombre1"));
+        btnSpanish.setText(texto.getString("spanish"));
+        btnEnglish.setText(texto.getString("english"));
+
     }
-    
+
     private void headerMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_headerMousePressed
         xMouse = evt.getX();
         yMouse = evt.getY();
