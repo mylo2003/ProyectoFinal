@@ -10,6 +10,7 @@ public class PantallaTema3 extends javax.swing.JFrame {
     public PantallaTema3() {
         initComponents();
         setLocationRelativeTo(null);
+        cargarIdiomaAlmacenado();
     }
 
     @SuppressWarnings("unchecked")
@@ -36,6 +37,14 @@ public class PantallaTema3 extends javax.swing.JFrame {
         titulo_tema3 = new javax.swing.JLabel();
         btnSpanish = new javax.swing.JButton();
         btnEnglish = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -273,11 +282,51 @@ public class PantallaTema3 extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("✔ El kernel actúa como una capa intermedia entre las aplicaciones del usuario y el hardware,  ");
+        jLabel1.setToolTipText("");
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("facilitando la comunicación eficiente y controlando el acceso a los dispositivos de entrada/salida.");
+        jLabel2.setToolTipText("");
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Este componente organiza las solicitudes de E/S, asegurando la sincronización y coordinación ");
+        jLabel3.setToolTipText("");
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("adecuadas entre los diversos procesos.");
+        jLabel4.setToolTipText("");
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("Además, la estructura de E/S del kernel juega un papel crucial en la administración de recursos, ");
+        jLabel5.setToolTipText("");
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("asignando prioridades y garantizando un uso equitativo de los dispositivos de E/S. En resumen, ");
+        jLabel6.setToolTipText("");
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("esta estructura es fundamental para el correcto funcionamiento y la eficiencia global del sistema ");
+        jLabel7.setToolTipText("");
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("operativo al gestionar las operaciones de entrada y salida.");
+        jLabel8.setToolTipText("");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(header, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(header, javax.swing.GroupLayout.DEFAULT_SIZE, 1212, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(menuLateral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -285,11 +334,11 @@ public class PantallaTema3 extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(titulo_tema3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                .addComponent(titulo_tema3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addContainerGap())
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(anterior)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 781, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(siguiente)
                                 .addGap(21, 21, 21))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -297,7 +346,19 @@ public class PantallaTema3 extends javax.swing.JFrame {
                         .addComponent(btnSpanish)
                         .addGap(18, 18, 18)
                         .addComponent(btnEnglish)
-                        .addGap(31, 31, 31))))
+                        .addGap(31, 31, 31))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(65, 65, 65)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel8))
+                        .addContainerGap())))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -314,7 +375,23 @@ public class PantallaTema3 extends javax.swing.JFrame {
                             .addComponent(btnSpanish))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(titulo_tema3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 385, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel4)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel8)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 113, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(anterior)
                             .addComponent(siguiente))
@@ -345,6 +422,17 @@ public class PantallaTema3 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void cargarIdiomaAlmacenado() {
+        // Aquí deberías tener una lógica para obtener el idioma almacenado, por ejemplo, desde una preferencia o configuración.
+        // Por ahora, asumamos que hay una clase Configuracion con un método getLenguajeSeleccionado()
+        Locale idiomaAlmacenado = ProyectoFinal.getLenguajeSeleccionado();
+
+        // Si el idioma almacenado no es nulo, aplicar el cambio de idioma
+        if (idiomaAlmacenado != null) {
+            cambiarIdioma(idiomaAlmacenado);
+        }
+    }
+
     private void cambiarIdioma(Locale locale) {
         ResourceBundle texto = ResourceBundle.getBundle("idiomas.texto", locale);
 
@@ -352,6 +440,16 @@ public class PantallaTema3 extends javax.swing.JFrame {
         btnSpanish.setText(texto.getString("spanish"));
         btnEnglish.setText(texto.getString("english"));
         titulo_tema3.setText(texto.getString("kernelSubsystem"));
+        jLabel1.setText(texto.getString("kernelSubsystemLabel1"));
+        jLabel2.setText(texto.getString("kernelSubsystemLabel2"));
+        jLabel3.setText(texto.getString("kernelSubsystemLabel3"));
+        jLabel4.setText(texto.getString("kernelSubsystemLabel4"));
+        jLabel5.setText(texto.getString("kernelSubsystemLabel5"));
+        jLabel6.setText(texto.getString("kernelSubsystemLabel6"));
+        jLabel7.setText(texto.getString("kernelSubsystemLabel7"));
+        jLabel8.setText(texto.getString("kernelSubsystemLabel8"));
+
+        ProyectoFinal.setLenguajeSeleccionado(locale);
 
     }
 
@@ -468,6 +566,14 @@ public class PantallaTema3 extends javax.swing.JFrame {
     private javax.swing.JLabel btnTema4;
     private javax.swing.JLabel btnTema5;
     private javax.swing.JPanel header;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel menu;
     private javax.swing.JPanel menuLateral;

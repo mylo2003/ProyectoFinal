@@ -10,6 +10,7 @@ public class PantallaTema4 extends javax.swing.JFrame {
     public PantallaTema4() {
         initComponents();
         setLocationRelativeTo(null);
+        cargarIdiomaAlmacenado();
     }
 
     @SuppressWarnings("unchecked")
@@ -36,10 +37,18 @@ public class PantallaTema4 extends javax.swing.JFrame {
         titulo_tema4 = new javax.swing.JLabel();
         btnSpanish = new javax.swing.JButton();
         btnEnglish = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
-        setMaximumSize(new java.awt.Dimension(1200, 626));
         setUndecorated(true);
         setResizable(false);
 
@@ -273,6 +282,51 @@ public class PantallaTema4 extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("✔ Cuando una aplicación solicita una operación de entrada/salida, el kernel interviene para ");
+        jLabel1.setToolTipText("");
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("transformar esta solicitud en una serie de comandos comprensibles para el hardware subyacente, ");
+        jLabel2.setToolTipText("");
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("ya sea un disco duro, una impresora u otro dispositivo. Este proceso implica la gestión de ");
+        jLabel3.setToolTipText("");
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("controladores de dispositivo que se encargan de las operaciones específicas de cada hardware.");
+        jLabel4.setToolTipText("");
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("La transformación eficiente de las solicitudes de E/S en operaciones de hardware es esencial para ");
+        jLabel5.setToolTipText("");
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("garantizar un rendimiento óptimo del sistema. El kernel coordina y sincroniza estas operaciones ");
+        jLabel6.setToolTipText("");
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("para evitar conflictos y asegurar un acceso ordenado y equitativo a los recursos del hardware. En ");
+        jLabel7.setToolTipText("");
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("última instancia, esta transformación facilita la interacción armoniosa entre las aplicaciones del ");
+        jLabel8.setToolTipText("");
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("usuario y los dispositivos físicos del sistema.");
+        jLabel9.setToolTipText("");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -297,7 +351,20 @@ public class PantallaTema4 extends javax.swing.JFrame {
                         .addComponent(btnSpanish)
                         .addGap(18, 18, 18)
                         .addComponent(btnEnglish)
-                        .addGap(32, 32, 32))))
+                        .addGap(32, 32, 32))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel9))
+                        .addContainerGap())))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -314,7 +381,25 @@ public class PantallaTema4 extends javax.swing.JFrame {
                             .addComponent(btnSpanish))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(titulo_tema4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 385, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel4)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel8)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel9)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(anterior)
                             .addComponent(siguiente))
@@ -345,6 +430,17 @@ public class PantallaTema4 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void cargarIdiomaAlmacenado() {
+        // Aquí deberías tener una lógica para obtener el idioma almacenado, por ejemplo, desde una preferencia o configuración.
+        // Por ahora, asumamos que hay una clase Configuracion con un método getLenguajeSeleccionado()
+        Locale idiomaAlmacenado = ProyectoFinal.getLenguajeSeleccionado();
+
+        // Si el idioma almacenado no es nulo, aplicar el cambio de idioma
+        if (idiomaAlmacenado != null) {
+            cambiarIdioma(idiomaAlmacenado);
+        }
+    }
+
     private void cambiarIdioma(Locale locale) {
         ResourceBundle texto = ResourceBundle.getBundle("idiomas.texto", locale);
 
@@ -352,6 +448,17 @@ public class PantallaTema4 extends javax.swing.JFrame {
         btnSpanish.setText(texto.getString("spanish"));
         btnEnglish.setText(texto.getString("english"));
         titulo_tema4.setText(texto.getString("transRequestHardwareOperations"));
+        jLabel1.setText(texto.getString("transformingReqToHardwareLabel1"));
+        jLabel2.setText(texto.getString("transformingReqToHardwareLabel2"));
+        jLabel3.setText(texto.getString("transformingReqToHardwareLabel3"));
+        jLabel4.setText(texto.getString("transformingReqToHardwareLabel4"));
+        jLabel5.setText(texto.getString("transformingReqToHardwareLabel5"));
+        jLabel6.setText(texto.getString("transformingReqToHardwareLabel6"));
+        jLabel7.setText(texto.getString("transformingReqToHardwareLabel7"));
+        jLabel8.setText(texto.getString("transformingReqToHardwareLabel8"));
+        jLabel9.setText(texto.getString("transformingReqToHardwareLabel9"));
+
+        ProyectoFinal.setLenguajeSeleccionado(locale);
 
     }
 
@@ -468,6 +575,15 @@ public class PantallaTema4 extends javax.swing.JFrame {
     private javax.swing.JLabel btnTema4;
     private javax.swing.JLabel btnTema5;
     private javax.swing.JPanel header;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel menu;
     private javax.swing.JPanel menuLateral;

@@ -10,6 +10,7 @@ public class PantallaTema2 extends javax.swing.JFrame {
     public PantallaTema2() {
         initComponents();
         setLocationRelativeTo(null);
+        cargarIdiomaAlmacenado();
     }
 
     @SuppressWarnings("unchecked")
@@ -457,6 +458,17 @@ public class PantallaTema2 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void cargarIdiomaAlmacenado() {
+        // Aquí deberías tener una lógica para obtener el idioma almacenado, por ejemplo, desde una preferencia o configuración.
+        // Por ahora, asumamos que hay una clase Configuracion con un método getLenguajeSeleccionado()
+        Locale idiomaAlmacenado = ProyectoFinal.getLenguajeSeleccionado();
+
+        // Si el idioma almacenado no es nulo, aplicar el cambio de idioma
+        if (idiomaAlmacenado != null) {
+            cambiarIdioma(idiomaAlmacenado);
+        }
+    }
+
     private void cambiarIdioma(Locale locale) {
         ResourceBundle texto = ResourceBundle.getBundle("idiomas.texto", locale);
 
@@ -475,6 +487,8 @@ public class PantallaTema2 extends javax.swing.JFrame {
         jLabel11.setText(texto.getString("appIoInterfaceLabel9"));
         jLabel12.setText(texto.getString("appIoInterfaceLabel10"));
         jLabel13.setText(texto.getString("appIoInterfaceLabel11"));
+
+        ProyectoFinal.setLenguajeSeleccionado(locale);
 
     }
 
